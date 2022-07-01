@@ -37,7 +37,7 @@
       \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
@@ -201,7 +201,7 @@
       \strng{authornamehash}{3b98d798f6abce49b004b950c7399ba8}
       \strng{authorfullhash}{2a602db304fd42d76bb568d6874579c3}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{SymPy is an open source computer algebra system written in pure Python. It is built with a focus on extensibility and ease of use, through both interactive and programmatic applications. These characteristics have led SymPy to become a popular symbolic library for the scientific Python ecosystem. This paper presents the architecture of SymPy, a description of its features, and a discussion of select submodules. The supplementary material provide additional examples and further outline details of the architecture and features of SymPy.}
@@ -243,7 +243,7 @@
       \strng{authornamehash}{d500f4849030f34359cdb3e1513acf83}
       \strng{authorfullhash}{d500f4849030f34359cdb3e1513acf83}
       \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
@@ -267,17 +267,17 @@
         {Technische Universität Dortmund}%
       }
       \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{labeltitlesource}{title}
       \field{title}{V23 Quanten Analogien}
-      \field{year}{2021}
+      \field{year}{2022}
     \endentry
     \entry{qa-dresden}{manual}{}
       \list{organization}{1}{%
         {Technische Universität Dresden}%
       }
       \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{labeltitlesource}{title}
       \field{month}{11}
       \field{title}{Versuchsanleitung - Quantenanalogie (QA)}
@@ -301,7 +301,7 @@
       \strng{authornamehash}{0c809239417dcb9aef9b906eff53933d}
       \strng{authorfullhash}{0c809239417dcb9aef9b906eff53933d}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Source Software}
