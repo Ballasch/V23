@@ -73,7 +73,7 @@ Die Messung wird in Abhängigkeit des Polarwinkels in Abbildung \ref{fig:hpeaks}
 
 \subsubsection{Aufspaltung der Peaks}
 In diesem Abschnitt werden die Frequenzspektren um die Resonanz bei $2.3 \,\si{\kilo\hertz}$ bei einer Ausrichtung von $\alpha = 0°$ aufgenommen mit Blenden verschiedener Dicke aufgenommen. Das Ergebnis sind in den Abbildungen \ref{fig:hspalt} dargestellt. 
-Die Resonanz spaltet sich in zwei Peaks auf, da die Kugelsymmetrie des Resonators durch die Blenden gebrochen wird. Der Abstand der Peaks ist ungefähr proportional zur Dicke der Blenden.
+Die Resonanz spaltet sich in zwei Peaks auf, da die Kugelsymmetrie des Resonators durch die Blenden gebrochen wird. Der Abstand der Peaks ist ungefähr proportional zur Dicke der Blenden. Dies ist analog zur linearen Abhängigkeit der Aufspaltung der Zustände im Magnetfeld, dem Zeeman-Effekt.
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
@@ -90,7 +90,7 @@ Die Resonanz spaltet sich in zwei Peaks auf, da die Kugelsymmetrie des Resonator
 
 \subsubsection{Druckamplitude mit der $9 \,\si{\milli\metre}$ Blende}
 Die Druckamplitude wurde um die beiden Peaks bei $2.08 \,\si{\kilo\hertz}$ und $2.25 \,\si{\kilo\hertz}$ in der Abbildung \ref{fig:9mm} aufgezeichnet. Die zugehörigen Legendrepolynome sind ebenfalls in der Abbildung zu sehen. Aus Abbildung \ref{fig:hpeaks} ist bekannt, dass ohne Zwischenring hier der Zustand $l=1$ liegt. Mit Zwischenring gibt es also eine Aufspaltung dieses Zustands. 
-Die $2.08 \,\si{\kilo\hertz}$ Resonanz weist daher auf den Zustand $l=1$ und $m=0$ und die $2.25 \,\si{\kilo\hertz}$ Resonanz weist auf den Zustand $l=1$ und $m=\pm 0$ hin. Der Vergleich mit den Legendrepolynomen ist ebenfalls in der Abbildung \ref{fig:9mm} zu sehen. 
+Die $2.08 \,\si{\kilo\hertz}$ Resonanz weist daher auf den Zustand $l=1$ und $m=0$ und die $2.25 \,\si{\kilo\hertz}$ Resonanz weist auf den Zustand $l=1$ und $m=\pm 1$ hin. Der Vergleich mit den Legendrepolynomen ist ebenfalls in der Abbildung \ref{fig:9mm} zu sehen. 
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
@@ -196,8 +196,8 @@ Die Bänder selbst werden durch verschiedene stehende Schallwellen im Zylinder e
   \Psi(x) = A\cdot \sin(k_x x),   \:\:k_x = \frac{2 \pi n_x}{L}
 \end{align*}
 wobei $A$ die Amplitude angibt und $n_x \in \mathbb{N}$ ist. Das $L$ gibt die Länge der Zylinder an. \\
-Die Abbildung \ref{fig:fk1} zeigt, dass die Amplitude der Resonanzfrequenzen mit steigender Frequenz abnimmt. Dies liegt an der Transferfunktion zwischen Lautsprecher und Mikrofon liegen, da der Lautsprecher und das Mikrofon die höheren Frequenzen nicht in gleicher Intensität wiedergeben bzw. aufzeichnen können. 
-Dies kann damit erklärt werden, dass höhere Frequenzen höhere Energien benötigen. Damit sinkt die Amplitude aufgrund der Energieerhaltung. 
+Die Abbildung \ref{fig:fk1} zeigt, dass die Amplitude der Resonanzfrequenzen mit steigender Frequenz abnimmt. Dies liegt an der Transferfunktion zwischen Lautsprecher und Mikrofon, da der Lautsprecher und das Mikrofon die höheren Frequenzen nicht in gleicher Intensität wiedergeben bzw. aufzeichnen können. 
+Dies kann damit erklärt werden, dass höhere Frequenzen höhere Leistungen benötigen. Damit sinkt die Amplitude aufgrund der beschränkten Leistung der Soundkarte.
 
 \begin{figure}[H]
   \centering
@@ -218,7 +218,7 @@ Das Frequenzspektrum der Resonatorkette mit $2$,$4$ und $10$ Zylindern wurden er
 Die der Vergleich der Frequenzspektren mit verschiedene Blendendurchmesser ist für die Kette aus 10 Zylindern in der Abbildung \ref{fig:fkvergleich} gezeigt. \\
 Es ist zunächst zu bemerken, dass die Abstände der Peaks für größere Durchmesser vergrößern. Verbunden mit dem größeren Abstand zwischen den Peaks ist auch ein kleinerer Abstand zwischen den Bändern. Mit größerem Blendendurchmesser wird die Kette einem Aufbau ohne Blenden immer ähnlicher. 
 Die unterschiedlichen Abstände liegen an der veränderten Kopplung zwischen den einzelnen Resonatoren. 
-Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Durchmesser eine höhere Amplitude. Die somit werden die Peaks erster Ordnungen durch kleinere Blendendurchmesser unterdrückt. 
+Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Durchmesser eine höhere Amplitude. Somit werden die Peaks erster Ordnungen durch kleinere Blendendurchmesser unterdrückt. 
 
 \begin{figure}[H]
   \centering
@@ -231,7 +231,8 @@ Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Du
 In vorher betrachteten Ketten hatten alle Zylinder dieselbe Länge. 
 Dieser Abschnitt wird untersucht, welchen Einfluss Variationen in der Kette haben. \\
 Zunächst wurden die Frequenzspektren der Resonatorketten mit drei verschiedenen Defekten, also Zylinder mit unterschiedlicher Länge in der Kette, aufgenommen und in der Abbildung \ref{fig:fkMod} mit dem Spektrum der Kette ohne einen Defekt verglichen. \\
-Es ist zunächst zu erkennen, dass sich die Bänder durch das Einfügen eines Defektes verschoben haben. Die Resonanzen liegen somit innerhalb der Bandlücken des Spektrums ohne einen Defekt. In der dritten Abbildung \ref{fig:fkMod}c ist ebenfalls noch zu erkennen, dass sich neue Resonanzen in den Lücken bilden und so das Band füllen. 
+Es ist zunächst zu erkennen, dass sich die Bänder durch das Einfügen eines Defektes verschoben haben. Die Resonanzen liegen somit innerhalb der Bandlücken des Spektrums ohne einen Defekt. In der dritten Abbildung \ref{fig:fkMod}c ist ebenfalls noch zu erkennen, dass sich neue Resonanzen in den Lücken bilden und so das Band füllen. \\
+Außerdem sind kleine Peaks kurz vor dem hineingezoomten Band zu sehen. Es handelt sich um einen Defektzustand, welches analog zu dem Defektzustand in einem n-Dotierung eines Halbleiters ist.  
 
 
 \begin{figure}[H]
@@ -252,7 +253,7 @@ Es ist zunächst zu erkennen, dass sich die Bänder durch das Einfügen eines De
 Für die folgende Analyse wurde die Kette so aufgebaut, dass sie alternierend Zylinder der Länge $50\,\si{\milli\metre}$ bzw. $75\,\si{\milli\metre}$ besitzt. Das Frequenzspektrum dieser alternierenden Kette wurde in Abbildung 
 \ref{fig:fkMod2} mit dem Spektrum eines einzelnen $50\,\si{\milli\metre}$ bzw. $75\,\si{\milli\metre}$ Zylinders verglichen. \\
 Das Frequenzspektrum der alternierenden Kette zeigt große Unterschiede im Vergleich mit den zuvor betrachteten Spektren. Die Resonanzen sind erneut verschoben jedoch fallen die Bänder zusätzlich kaum mit den Resonanzen der einzelnen Zylinder zusammen. 
-Stattdessen sind die Bänder der alternierenden Kette innerhalb der Bandlücken der einzelnen Zylinder zu finden. Dies ist damit zu erklären, dass die Aneinanderreihung der Zylinder zu destruktiver Interferenz an den Resonanzen führt. Es kann nur zu Resonanzen in der alternierenden Kette kommen, wenn nicht beide Zylindertypen die Resonanzen des jeweils anderen Typen stark unterdrücken. 
+Stattdessen sind die Bänder der alternierenden Kette innerhalb der Bandlücken der einzelnen Zylinder zu finden. Die Bänder sind dabei eher zu höheren Frequenzen verschoben. Dies ist damit zu erklären, dass die Aneinanderreihung der Zylinder zu destruktiver Interferenz an den Resonanzen führt. Es kann nur zu Resonanzen in der alternierenden Kette kommen, wenn nicht beide Zylindertypen die Resonanzen des jeweils anderen Typen stark unterdrücken. 
 Dies ist der Fall bei dem Band um die Frequenz $7000 \, \si{\hertz}$. Hier liegen überlappen sich die Resonanzen der einzelnen Zylinder, es kommt zu keiner destruktiven Interferenz und somit kann sich an dieser Stelle ein Band im Gesamtsystem bilden. \\ 
 
 \begin{figure}[H]
